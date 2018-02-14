@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Customization of the short-text question template.
+-->
+
+<config>
+    <!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
+    <metadata>
+        <name>cardSort</name>
+        <creationDate>13/02/2018</creationDate>
+        <author>Tony Partner</author>
+        <authorEmail>tpartner@partnersurveys.com</authorEmail>
+        <authorUrl>http://partnersurveys.com</authorUrl>
+        <license>GNU General Public License version 2 or later</license>
+        <version>1.0</version>
+        <apiVersion>1</apiVersion>
+        <description>Convert a multi-short-text question into a "Card Sort" interface</description>
+    </metadata>
+
+    <!--
+        Here the list of the css/js files to load.
+        Any file here will be loaded via the asset manager (when in config.php debug = 0)
+    -->
+    <files>
+        <css>
+            <filename>css/cardsort.css</filename>
+        </css>
+        <js>
+            <filename>scripts/cardsort.js</filename>
+            <filename>scripts/jquery-ui/jquery-ui.min.js</filename>
+        </js>
+    </files>
+
+    <custom_attributes>
+        <!-- New attributes -->
+		<attribute>
+            <name>area_names</name>
+            <category>Display</category>
+            <sortorder>103</sortorder>
+            <inputtype>text</inputtype>
+            <default>1, 2, 3</default>
+            <help>A comma-separated list of the names for the card sorting areas</help>
+            <caption>Sorting area names</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+		
+        <!-- Hide some core attributes -->
+		<!--
+		<attribute>
+            <name>display_rows</name>
+            <category>Display rows</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>1</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Display rows (not required)</caption>
+        </attribute>
+		-->
+		<attribute>
+            <name>text_input_columns</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>10</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Text input box width (not required)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+		<attribute>
+            <name>input_size</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>10</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Text input size (not required)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+		<attribute>
+            <name>label_input_columns</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>30</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Label column width (not required)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+		<attribute>
+            <name>display_rows</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>1</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Display rows (not required)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+		-->
+		<attribute>
+            <name>hidden</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>1000</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Always hide this question (not required)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+    </custom_attributes>
+
+    <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
+    <engine>
+        <load_core_css>true</load_core_css>
+        <load_core_js>true</load_core_js>
+        <show_as_template>true</show_as_template>
+        <show_as_question_type>true</show_as_question_type>
+    </engine>
+</config>

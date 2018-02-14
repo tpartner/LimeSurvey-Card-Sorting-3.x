@@ -1,0 +1,24 @@
+{#
+/**
+ * Card sorting sub-question list
+ *
+ * @var $$sRows			: the rows, generated with the views rows/answer_row*.php
+ *
+ * @var $coreClass		: the LimeSurvey list classes
+ * @var $basename		: the SGQ of the question
+ 
+ **** Additional attributes:
+ * @var question_template_attribute.area_names	: comma-separated list of the names for the card sorting areas
+ */
+#}
+
+<!-- Card Sort Interface -->
+{% set cardSortView = './views/cardsort.twig' %}
+{{ include(cardSortView) }}
+<!-- End of Card Sort Interface -->
+    
+<!-- Sub-question list -->
+<ul class="{{coreClass}} list-unstyled card-sort-list" role="group" aria-labelledby="ls-question-text-{{basename}}">
+    {{sRows}}
+</ul>
+<!-- End of sub-question list -->
