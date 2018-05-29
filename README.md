@@ -24,9 +24,6 @@
 2) Array filter and array filter exclusion will only work if the filtering question is on a previous page.
 
 3) Demo survey in */cardSort/survey/questions/answer/multiplenumeric/assets/demo/*.
-
-
->Custom themes are given without any warranty, implied or otherwise.
-
-
-```Custom themes are given without any warranty, implied or otherwise.```
+    
+    
+>*Custom themes are given without any warranty, implied or otherwise.*
