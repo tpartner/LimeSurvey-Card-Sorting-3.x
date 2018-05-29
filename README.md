@@ -18,3 +18,7 @@
 5) Create subquestions as required.
 
 6) The styles for the theme can be modified in */pathToLimeSurvey/upload/themes/question/cardSort/survey/questions/answer/multipleshorttext/assets/css/cardsort.css*.
+
+**Notes:**
+
+1) Array filter and array filter exclusion will only work if the filtering question is on a previous page.
