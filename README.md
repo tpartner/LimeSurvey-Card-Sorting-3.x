@@ -17,10 +17,18 @@
 
 5) Create subquestions as required.
 
-6) The styles for the theme can be modified in */pathToLimeSurvey/upload/themes/question/cardSort/survey/questions/answer/multipleshorttext/assets/css/cardsort.css*.
+**Notes:**
+
+1) Demo survey in */pricingSliders/survey/questions/answer/multiplenumeric/assets/demo/*.
+
+***Custom themes are given without any warranty, implied or otherwise***
 
 **Notes:**
 
-1) Array filter and array filter exclusion will only work if the filtering question is on a previous page.
+1) The styles for the theme can be modified in */pathToLimeSurvey/upload/themes/question/cardSort/survey/questions/answer/multipleshorttext/assets/css/cardsort.css*.
 
-2) Custom themes are given without any warranty, implied or otherwise.
+2) Array filter and array filter exclusion will only work if the filtering question is on a previous page.
+
+3) Demo survey in */cardSort/survey/questions/answer/multiplenumeric/assets/demo/*.
+
+***Custom themes are given without any warranty, implied or otherwise.***
