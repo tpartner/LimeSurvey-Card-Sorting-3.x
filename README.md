@@ -22,3 +22,5 @@
 **Notes:**
 
 1) Array filter and array filter exclusion will only work if the filtering question is on a previous page.
+
+2) Custom themes are given without any warranty, implied or otherwise.
