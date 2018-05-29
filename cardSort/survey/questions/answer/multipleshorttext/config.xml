@@ -35,7 +35,7 @@
         <!-- New attributes -->
         <attribute>
             <name>area_names</name>
-            <category>Custom settings</category>
+            <category>Custom options</category>
             <sortorder>0</sortorder>
             <inputtype>text</inputtype>
             <default>1, 2, 3</default>
@@ -47,7 +47,7 @@
         <!-- Hide some core attributes -->
         <attribute>
             <name>hidden</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>1</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -56,7 +56,7 @@
         </attribute>
         <attribute>
             <name>prefix</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>2</sortorder>
             <inputtype></inputtype>
             <i18n>true</i18n>
@@ -66,7 +66,7 @@
         </attribute>
         <attribute>
             <name>suffix</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>3</sortorder>
             <inputtype></inputtype>
             <i18n>true</i18n>
@@ -76,7 +76,7 @@
         </attribute>
         <attribute>
             <name>array_filter_style</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>4</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -85,7 +85,7 @@
         </attribute>
         <attribute>
             <name>display_rows</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>5</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -94,7 +94,7 @@
         </attribute>
         <attribute>
             <name>exclude_all_others</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>6</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -103,7 +103,7 @@
         </attribute>
         <attribute>
             <name>label_input_columns</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>7</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -112,7 +112,7 @@
         </attribute>
         <attribute>
             <name>maximum_chars</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>8</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -121,7 +121,7 @@
         </attribute>
         <attribute>
             <name>numbers_only</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>9</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -130,7 +130,7 @@
         </attribute>
         <attribute>
             <name>text_input_columns</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>10</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
@@ -139,7 +139,7 @@
         </attribute>
         <attribute>
             <name>input_size</name>
-            <category>Disabled settings</category>
+            <category>Disabled options</category>
             <sortorder>11</sortorder>
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
