@@ -5,7 +5,7 @@
 
 **Implementation:**
 
-1) Extract the download and upload the cardSort folder to */pathToLimeSurvey/upload/themes/question/*.
+1) Extract the download and upload the **cardSort** folder to */pathToLimeSurvey/upload/themes/question/*.
 
 2) Create a multiple-short-text question, click Save.
 
