@@ -13,7 +13,7 @@ $(document).on('ready pjax:scriptcomplete',function(){
 			$('body').addClass('with-card-sort-question');
 			
 			// Insert the "cards"
-			$('#question'+qID+' .answer-item').each(function(i) {
+			$('#question'+qID+' .answer-item:not(.ls-irrelevant)').each(function(i) {
 				var thisSGQA = $(this).attr('id').replace(/javatbd/, '');
 				var thisCode = $(this).attr('id').split('X'+qID)[1];
 				var thisHTML = $('label', this).html();
@@ -75,24 +75,20 @@ $(document).on('ready pjax:scriptcomplete',function(){
 				});
 				
 				// Load the hidden inputs
-				$('#question'+qID+' .question-item textarea').val('');
+				$('#question'+qID+' .question-item textarea, #question'+qID+' .question-item input[type="text"]').val('');
 				$('#question'+qID+' .droppable.items-end .card').each(function(i) {
 					var thisItemsEnd = $(this).closest('.droppable.items-end').attr('data-items-end');
 					var thisID = $(this).attr('data-sgqa');
 					$('#answer'+thisID+'').val(thisItemsEnd);
 				});
-				$('#question'+qID+' .question-item textarea').trigger('keyup');
+				$('#question'+qID+' .question-item textarea, #question'+qID+' .question-item input[type="text"]').trigger('keyup');
 			});
 		 
 			// Initial "card" positions
-			$('#question'+qID+' .question-item textarea').each(function(i) {
+			$('#question'+qID+' .question-item textarea, #question'+qID+' .question-item input[type="text"]').each(function(i) {
 				if($.trim($(this).val()) != '') {
 					$('.card[data-sgqa="'+$(this).attr('name')+'"]').appendTo($('#question'+qID+' .items-end[data-items-end="'+$(this).val()+'"]')).addClass('moved');
 				}
-			});
-		 
-			// Interrupt the Next/Submit function and load the inputs
-			$('#ls-button-submit').on('click', function(){
 			});
 		}
 	});
