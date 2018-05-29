@@ -25,4 +25,8 @@
 
 3) Demo survey in */cardSort/survey/questions/answer/multiplenumeric/assets/demo/*.
 
+
 >Custom themes are given without any warranty, implied or otherwise.
+
+
+```Custom themes are given without any warranty, implied or otherwise.```
