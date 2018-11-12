@@ -28,6 +28,7 @@
         <js>
             <filename>scripts/cardsort.js</filename>
             <filename>scripts/jquery-ui/jquery-ui.min.js</filename>
+            <filename>scripts/jquery.ui.touch-punch.min.js</filename>
         </js>
     </files>
 
