@@ -7,6 +7,8 @@
     <!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
     <metadata>
         <name>cardSort</name>
+        <type>question_theme</type>
+        <title>Card Sort</title>
         <creationDate>13/02/2018</creationDate>
         <author>Tony Partner</author>
         <authorEmail>tpartner@partnersurveys.com</authorEmail>
@@ -14,7 +16,13 @@
         <license>GNU General Public License version 2 or later</license>
         <version>1.0</version>
         <apiVersion>1</apiVersion>
-        <description>Convert a multi-short-text question into a "Card Sort" interface</description>
+        <description>Convert a multi-short-text question into a "Card Sort" interface</description>			
+        <questionType>Q</questionType>
+        <group>Text questions</group>
+        <answerscales>0</answerscales>
+        <hasdefaultvalues>1</hasdefaultvalues>
+        <assessable>1</assessable>
+        <class />
     </metadata>
 
     <!--
@@ -27,8 +35,6 @@
         </css>
         <js>
             <filename>scripts/cardsort.js</filename>
-            <filename>scripts/jquery-ui/jquery-ui.min.js</filename>
-            <filename>scripts/jquery.ui.touch-punch.min.js</filename>
         </js>
     </files>
 
@@ -51,6 +57,7 @@
             <category>Disabled options</category>
             <sortorder>1</sortorder>
             <inputtype></inputtype>
+			<default>0</default>
             <help>This setting is not available in this question theme.</help>
             <caption>Always hide this question (not required)</caption>
             <readonly_when_active>false</readonly_when_active>
@@ -60,7 +67,7 @@
             <category>Disabled options</category>
             <sortorder>2</sortorder>
             <inputtype></inputtype>
-            <i18n>true</i18n>
+            <i18n>1</i18n>
             <help>This setting is not available in this question theme.</help>
             <caption>Answer prefix (not required)</caption>
             <readonly_when_active>false</readonly_when_active>
@@ -70,7 +77,7 @@
             <category>Disabled options</category>
             <sortorder>3</sortorder>
             <inputtype></inputtype>
-            <i18n>true</i18n>
+            <i18n>1</i18n>
             <help>This setting is not available in this question theme.</help>
             <caption>Answer suffix (not required)</caption>
             <readonly_when_active>false</readonly_when_active>
